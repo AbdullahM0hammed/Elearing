@@ -2,30 +2,29 @@
 
 # 📚 E-Learning Platform
 
-An online learning platform built with **ASP.NET Core MVC** — where students explore courses, and instructors manage content.
+> A modern courses platform frontend built with **React 19** and **Tailwind CSS**.
 
-![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver)
-![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?logo=bootstrap)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
+![JavaScript](https://img.shields.io/badge/JavaScript-67.3%25-F7DF1E?logo=javascript)
 
 </div>
 
 ---
 
-## ⚡ What It Does
+## ⚡ Features
 
-- 🎓 Browse and enroll in courses
-- 📝 Manage lessons and course content
-- 👥 Role-based access (Admin / Instructor / Student)
-- 🔐 Secure login with ASP.NET Core Identity
-- 📊 Track enrollment and progress
+- 🎓 Browse and explore available courses
+- 🔀 Client-side routing with React Router DOM v7
+- 🎨 Fully responsive UI built with Tailwind CSS v4
+- 🖼️ Icons via Font Awesome & React Icons
 
 ---
 
 ## 🛠️ Built With
 
-`ASP.NET Core MVC` · `Entity Framework Core` · `SQL Server` · `Bootstrap 5` · `Identity`
+`React 19` · `Vite 7` · `Tailwind CSS 4` · `React Router DOM 7` · `Font Awesome`
 
 ---
 
@@ -34,19 +33,14 @@ An online learning platform built with **ASP.NET Core MVC** — where students e
 ```bash
 git clone https://github.com/AbdullahM0hammed/Elearing.git
 cd Elearing
+npm install
+npm run dev
 ```
 
-Update the connection string in `appsettings.json`, then:
-
-```bash
-dotnet ef database update
-dotnet run
-```
+Visit: `http://localhost:5173`
 
 ---
 
 <div align="center">
-
-Made by [Abdullah Mohammed](https://github.com/AbdullahM0hammed)
-
+  <sub>Built by <a href="https://github.com/AbdullahM0hammed">Abdullah Mohammed</a></sub>
 </div>
